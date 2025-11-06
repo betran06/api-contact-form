@@ -72,5 +72,3 @@ func InitDB() {
 		panic(fmt.Sprintf("AutoMigrate failed: %v", err))
 	}
 }
-
-//koneksi untuk database ke maria db nya malalui sini
