@@ -5,10 +5,14 @@
 .DS_Store
 Thumbs.db
 
-# app build result
-api-contact-form
+# Go build output
+*.exe
+*.out
+*.test
 
-# explanation
-
-# Personal notes (ignore entire folder)
+# Personal notes
 notes/
+
+# IDE settings (optional)
+.vscode/
+.idea/
