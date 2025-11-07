@@ -5,10 +5,22 @@
 .DS_Store
 Thumbs.db
 
-# Go build output
+# Go build output / caches
 *.exe
 *.out
 *.test
+*.dll
+*.so
+*.dylib
+/api-contact-form            # binary tanpa ekstensi (Linux/macOS)
+bin/
+build/
+pkg/
+tmp/
+
+# Coverage & logs
+coverage.out
+*.log
 
 # Personal notes
 notes/
